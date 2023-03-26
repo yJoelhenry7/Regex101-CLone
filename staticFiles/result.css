@@ -1,0 +1,19 @@
+body{
+    background-color: #e8eaf6;
+    }
+    .center{
+        text-align: center;
+      }
+      .center_tex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+      }
+      .bordered {
+        margin-top:70px ;
+            width:780px;
+            height:270px;
+            padding: 50px;
+            border: 2px ridge black;
+          }

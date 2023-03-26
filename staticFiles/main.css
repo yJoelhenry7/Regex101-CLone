@@ -1,0 +1,35 @@
+body {
+    background-color: #e8eaf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .center{
+      text-align: center;
+    }
+
+    .bordered {
+      margin-top:70px ;
+          width:780px;
+          height:270px;
+          padding: 50px;
+          border: 2px ridge black;
+        }
+
+        .button {
+          border: none;
+          color: white;
+          border-radius: 10px;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          background-color: #4CAF50;
+        }
+        .input_user{
+          height:25px;
+           width:400px;
+        }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regrex results</title>
+    <link rel="stylesheet" href="/staticFiles/result.css">
+</head>
+<body>
+    <div class="bordered">
+    <h1 class="center">Matches Found:</h1>
+    {% if matches %}
+    <ol type="1" class="center_tex">
+        {% for match in matches %}
+        <li><b>{{ match }}</b></li>
+        {% endfor %}
+    </ol>
+    {% else %}
+    <h2>No Matches found!!!</h2>
+    {% endif %}
+    </div>
+
+</body>
+</html>
